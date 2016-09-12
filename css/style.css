@@ -55,7 +55,7 @@ header {
     -webkit-flex-direction: column;
     flex-direction: column; }
     #countries .container p {
-      text-align: just; }
+      text-align: justify; }
 
 .country-box {
   padding: 13px 20px;
@@ -67,6 +67,39 @@ header {
   .country-box h4 {
     font-size: 1.7rem;
     padding-bottom: 8px; }
+  .country-box .singapore {
+    background-image: url(../images/singapore.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    min-height: 86.5%; }
+    .country-box .singapore .background {
+      padding: 30px;
+      font-size: 1.5rem;
+      background-color: rgba(0, 0, 0, 0.4);
+      min-height: 164.5px; }
+  .country-box .australia {
+    background-image: url(../images/australia.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    min-height: 86.5%; }
+    .country-box .australia .background {
+      padding: 30px;
+      font-size: 1.5rem;
+      background-color: rgba(0, 0, 0, 0.4);
+      min-height: 164.5px; }
+  .country-box .england {
+    background-image: url(../images/england.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    min-height: 86.5%; }
+    .country-box .england .background {
+      padding: 30px;
+      font-size: 1.5rem;
+      background-color: rgba(0, 0, 0, 0.4);
+      min-height: 164.5px; }
 
 @media (min-width: 769px) {
   #countries .container {
@@ -75,6 +108,12 @@ header {
     justify-content: space-between; }
   #countries .country-box {
     width: 33.33333%; }
+    #countries .country-box .singapore p {
+      line-height: 2; }
+    #countries .country-box .australia p {
+      line-height: 2; }
+    #countries .country-box .england p {
+      line-height: 2; }
   #countries h3 {
     font-size: 3rem; } }
 .subscribe {

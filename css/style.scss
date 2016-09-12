@@ -91,6 +91,45 @@ header{
         font-size: 1.7rem;
         padding-bottom: 8px;
     }
+    .singapore{
+        background-image:url(../images/singapore.jpg);
+        width: 100%;
+        background-size: cover;
+        background-position: center center;
+        min-height: 86.5%;
+        .background{
+            padding: 30px;
+            font-size: 1.5rem;
+            background-color: rgba(0, 0, 0, 0.4);
+            min-height: 164.5px;
+        }
+    }
+    .australia{
+        background-image:url(../images/australia.jpg);
+        width: 100%;
+        background-size: cover;
+        background-position: center center;
+        min-height: 86.5%;
+        .background{
+            padding: 30px;
+            font-size: 1.5rem;
+            background-color: rgba(0, 0, 0, 0.4);
+            min-height: 164.5px;
+        }
+    }
+    .england{
+        background-image:url(../images/england.jpg);
+        width: 100%;
+        background-size: cover;
+        background-position: center center;
+        min-height: 86.5%;
+        .background{
+            padding: 30px;
+            font-size: 1.5rem;
+            background-color: rgba(0, 0, 0, 0.4);
+            min-height: 164.5px;
+        }
+    }
 }
 
 @media(min-width: 769px){
@@ -101,6 +140,22 @@ header{
         }
         .country-box{
             width: (100% / 3);
+            .singapore{
+                p{
+                    line-height: 2;
+                    
+                }
+            }
+            .australia{
+                p{
+                    line-height: 2;
+                }
+            }
+            .england{
+                p{
+                    line-height: 2;
+                }
+            }
         }
         h3{
             font-size: 3rem;
