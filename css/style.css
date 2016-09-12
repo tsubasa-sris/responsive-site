@@ -1,0 +1,97 @@
+@charset "UTF-8";
+@import "https://fonts.googleapis.com/css?family=Cinzel";
+html {
+  font-size: 62.5%; }
+
+body {
+  color: #FFFFFF;
+  font-size: 1.4rem;
+  font-family: "游ゴシック", YuGothic, "メイリオ", Verdana, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  line-height: 1.6;
+  letter-spacing: 0.1em;
+  background-color: #4E5166; }
+
+.text-center {
+  text-align: center; }
+
+.uppercase {
+  text-transform: uppercase; }
+
+.cinzel {
+  font-family: 'cinzel', sans-serif; }
+
+header {
+  background-image: url(../images/pexels-photo.jpg);
+  background-size: cover;
+  height: 500px;
+  width: 100%; }
+  header .site-title {
+    font-size: 4em;
+    padding-top: 23px; }
+  header span {
+    display: block;
+    font-size: 2.5rem; }
+
+#countries {
+  padding: 20px 20px; }
+  #countries::after {
+    content: '';
+    display: block;
+    clear: both; }
+  #countries h2 {
+    font-size: 2rem;
+    padding: 7px; }
+
+.country-box {
+  padding: 13px 20px;
+  float: left;
+  width: 100%;
+  box-sizing: border-box; }
+  .country-box h3 {
+    font-size: 2.5rem; }
+
+@media (min-width: 769px) {
+  #countries .country-box {
+    width: 33.33333%; } }
+.subscribe {
+  margin-top: 10px;
+  background-color: #93A8AC;
+  padding: 15px;
+  clear: both;
+  height: 100px; }
+  .subscribe p {
+    padding-top: 17px;
+    padding-bottom: 13px; }
+  .subscribe a {
+    background-color: #4E5166;
+    display: block;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 3px;
+    margin: auto;
+    width: 180px; }
+
+@media (min-width: 769px) {
+  .btn {
+    position: relative;
+    box-shadow: 0px 4px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 0px 4px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0px 4px rgba(0, 0, 0, 0.6); }
+
+  a:hover {
+    background-color: #595c74;
+    box-shadow: 0px 4px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0px 4px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 4px rgba(0, 0, 0, 0.5); }
+
+  a:active {
+    top: 3px;
+    box-shadow: none; } }
+footer {
+  background-color: #4E5166;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 1rem; }
+
+/*# sourceMappingURL=style.css.map */
