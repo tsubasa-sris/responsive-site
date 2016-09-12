@@ -23,24 +23,39 @@ body {
 header {
   background-image: url(../images/pexels-photo.jpg);
   background-size: cover;
-  height: 500px;
-  width: 100%; }
+  margin: 0 auto;
+  height: 250px;
+  width: 100%;
+  background-position: center center; }
   header .site-title {
-    font-size: 4em;
-    padding-top: 23px; }
-  header span {
-    display: block;
-    font-size: 2.5rem; }
+    font-size: 2em;
+    padding-top: 15px; }
+  header h2 {
+    font-size: 1.5rem; }
 
+@media (min-width: 769px) {
+  header {
+    height: 500px;
+    font-size: 3rem; }
+    header h2 {
+      font-size: 2.5rem; } }
 #countries {
   padding: 20px 20px; }
   #countries::after {
     content: '';
     display: block;
     clear: both; }
-  #countries h2 {
-    font-size: 2rem;
+  #countries h3 {
+    font-size: 3rem;
     padding: 7px; }
+  #countries .container {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    -webkit-flex-direction: column;
+    flex-direction: column; }
+    #countries .container p {
+      text-align: just; }
 
 .country-box {
   padding: 13px 20px;
@@ -49,10 +64,19 @@ header {
   box-sizing: border-box; }
   .country-box h3 {
     font-size: 2.5rem; }
+  .country-box h4 {
+    font-size: 1.7rem;
+    padding-bottom: 8px; }
 
 @media (min-width: 769px) {
+  #countries .container {
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    justify-content: space-between; }
   #countries .country-box {
-    width: 33.33333%; } }
+    width: 33.33333%; }
+  #countries h3 {
+    font-size: 3rem; } }
 .subscribe {
   margin-top: 10px;
   background-color: #93A8AC;
@@ -80,7 +104,7 @@ header {
     -moz-box-shadow: 0px 4px rgba(0, 0, 0, 0.6); }
 
   a:hover {
-    background-color: #595c74;
+    background-color: #626680;
     box-shadow: 0px 4px rgba(0, 0, 0, 0.5);
     -webkit-box-shadow: 0px 4px rgba(0, 0, 0, 0.5);
     -moz-box-shadow: 0px 4px rgba(0, 0, 0, 0.5); }
